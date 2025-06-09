@@ -10,3 +10,11 @@ class PostSerializer(ModelSerializer):
             'id', 'title', 'content', 'image', 'author'
         ]
         read_only_fields = ['created_at', 'updated_at', 'author']
+
+
+class FakeSerializer(ModelSerializer):
+    class Meta:
+        model = Post
+        fields = [
+            'id', 'title', 'content', 'image', 'author'
+        ]
