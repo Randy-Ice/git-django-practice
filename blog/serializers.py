@@ -18,3 +18,4 @@ class FakeSerializer(ModelSerializer):
         fields = [
             'id', 'title', 'content', 'image', 'author'
         ]
+        #other notes
