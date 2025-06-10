@@ -19,3 +19,4 @@ class FakeSerializer(ModelSerializer):
             'id', 'title', 'content', 'image', 'author'
         ]
         #other notes
+        #fix bug here
