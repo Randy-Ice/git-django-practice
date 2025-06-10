@@ -20,3 +20,4 @@ class FakeSerializer(ModelSerializer):
         ]
         #other notes
         #fix bug here
+        #fix 2nd bug
